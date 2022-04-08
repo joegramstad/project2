@@ -1,0 +1,31 @@
+.link {
+    font-size: x-large;
+}
+
+#BorderBox {
+    list-style-type: none;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 50px;
+    outline: 5px solid grey;
+    outline-offset: 10px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+li > ul {
+    margin-left: -10px;
+    list-style-type: circle;
+    margin-top: -5px;
+}
+
+@media(max-width: 900px) {
+    #BorderBox {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

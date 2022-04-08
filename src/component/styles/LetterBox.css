@@ -1,0 +1,24 @@
+.LetterBox {
+    outline: 2px solid grey;
+    outline-offset: 3px;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Default {
+    background-color: white;
+}
+
+.Correct {
+    background-color: green;
+}
+
+.Spot {
+    background-color: yellow;
+}
+
+.Wrong {
+    background-color: grey;
+}
